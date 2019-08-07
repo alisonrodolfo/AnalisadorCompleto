@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="898.0" prefWidth="100.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="analisador.FXMLDocumentController">
+    <children>
+      <VBox layoutY="6.0" prefHeight="891.0" prefWidth="1651.0">
+         <children>
+            <Pane id="HeaderMenu" fx:id="headermenu" prefHeight="60.0" prefWidth="1772.0" style="-fx-background-color: #1e90ff;">
+               <children>
+                  <Button layoutX="215.0" layoutY="12.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttontop" stylesheets="@../css/style.css" text="Home" />
+                  <MenuButton contentDisplay="TOP" layoutX="386.0" layoutY="12.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttontopmenu" stylesheets="@../css/style.css" text="Projeto" textFill="WHITE">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Novo Projeto" />
+                        <MenuItem mnemonicParsing="false" text="Salvar Projeto" />
+                        <MenuItem mnemonicParsing="false" text="Opções" />
+                     </items>
+                  </MenuButton>
+                  <Button layoutX="552.0" layoutY="12.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttontop" stylesheets="@../css/style.css" text="Sobre" />
+               </children>
+            </Pane>
+            <Pane prefHeight="840.0" prefWidth="1652.0">
+               <children>
+                  <AnchorPane id="anchorPaneMain" fx:id="anchorPaneMain" prefHeight="723.0" prefWidth="1651.0">
+                     <children>
+                        <Pane prefHeight="836.0" prefWidth="1652.0">
+                           <children>
+                              <Button id="handleMenuAnalisar" fx:id="handleMenuAnalisar" layoutX="236.0" layoutY="762.0" onAction="#handleMenuAnalisar" prefHeight="37.0" prefWidth="164.0" styleClass="buttontop" stylesheets="@../css/style.css" text="Analisar" />
+                              <Button id="handleMenuLimpar" fx:id="handleMenuLimpar" layoutX="476.0" layoutY="762.0" onAction="#handleMenuLimpar" prefHeight="37.0" prefWidth="164.0" styleClass="buttonred" stylesheets="@../css/style.css" text="Limpar Tudo" />
+                              <TextArea id="AreaCode" fx:id="AreaCode" layoutX="14.0" layoutY="14.0" prefHeight="700.0" prefWidth="800.0" />
+                              <TableView id="tableView" fx:id="tableView" layoutX="840.0" layoutY="14.0" prefHeight="700.0" prefWidth="800.0">
+                                <columns>
+                                  <TableColumn id="tableColumnToken" fx:id="tableColumnToken" prefWidth="232.0" text="Token" />
+                                  <TableColumn id="tableColumnClassificacao" fx:id="tableColumnClassificacao" prefWidth="473.0" text="Classificação" />
+                                    <TableColumn id="tableColumnLinha" fx:id="tableColumnLinha" prefWidth="94.0" text="LINHA" />
+                                </columns>
+                              </TableView>
+                              <Button id="handleMenuLimparTabela" fx:id="handleMenuLimparTabela" layoutX="1158.0" layoutY="762.0" onAction="#handleMenuLimparTabela" prefHeight="37.0" prefWidth="164.0" styleClass="buttonred" stylesheets="@../css/style.css" text="Limpar Tabela" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

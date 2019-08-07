@@ -1,0 +1,26 @@
+program 
+
+
+test  { programa exemplo } 
+;
+
+{ programa exemplo } 
+
+var
+	num , n2 : integer ;
+	final :                   integer ;
+
+ kkkk , eee :  real ;
+
+begin
+	num := 5 * 5 + 9 - 7 ;
+
+	if ( num >= 20 ) or ( num <= 90 ) then
+        begin
+            num := 100 * ( 2 ) ;
+      
+        end ;
+	final := num + 1 ;
+
+
+end .

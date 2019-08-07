@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="754.0" prefWidth="1068.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="analisador.FXMLDocumentController">
+    <children>
+      <Pane layoutY="60.0" prefHeight="732.0" prefWidth="1068.0">
+         <children>
+            <TextArea id="TextArea" fx:id="TextArea" layoutX="12.0" layoutY="-42.0" prefHeight="764.0" prefWidth="1047.0" />
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>

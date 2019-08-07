@@ -1,0 +1,89 @@
+program 
+
+
+test 
+
+; { programa exemplo } 
+
+// teste de alguma coisa 
+
+var
+	num , n2 , weblab : integer ;
+	final :                   integer ;
+
+procedure func ( var yy , ii : integer ) ;
+
+    begin
+
+
+    end 
+;
+
+procedure soma ( var yy  : integer ) ;
+
+procedure mult ( var yy : integer ) ;
+
+
+    var i : integer ;
+    
+    begin
+
+    num :=  5 * 3 + 9 - 7 * 6 + 222 - 80 ;
+    
+    func ( num , num ) ;
+    
+    
+    if ( num < 33 ) then
+ 
+    begin
+    
+    weblab := 10 + num ;
+    
+        if ( num < weblab ) then
+ 
+        begin
+    
+            i := 0 ;
+            while ( i < 10 ) do
+            begin
+                i := i + 1 ;
+            end ;
+        
+        
+        num := weblab ;
+        
+        end
+        
+        else
+        
+            begin
+        
+            weblab := num ;
+        
+            end
+    
+        ;
+    
+    end
+
+;
+
+
+    end 
+;
+
+
+    begin
+
+
+    end 
+;
+    
+ begin
+
+
+
+ end
+  
+.
+
